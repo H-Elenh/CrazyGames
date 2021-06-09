@@ -4,7 +4,7 @@ using Photon.Realtime;
 using System.Collections.Generic;
 
 
-public class QuickMatchExample : MonoBehaviourPunCallbacks
+public class QuickMatch : MonoBehaviourPunCallbacks
 {
  
 	if(!gotFriends)
@@ -57,7 +57,7 @@ public class QuickMatchExample : MonoBehaviourPunCallbacks
     }
 }
 
-public class RoomListCachingExample : MonoBehaviourPunCallbacks
+public class RoomListCaching : MonoBehaviourPunCallbacks
 {
     private TypedLobby customLobby = new TypedLobby("customLobby", LobbyType.Default);
 
